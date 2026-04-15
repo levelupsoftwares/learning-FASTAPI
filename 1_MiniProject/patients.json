@@ -1,0 +1,97 @@
+[
+  {
+    "patient_id": "P001",
+    "personal_info": {
+      "name": "Ali Khan",
+      "age": 29,
+      "gender": "Male",
+      "dob": "1997-03-12"
+    },
+    "contact_info": {
+      "phone": "+92-300-1234567",
+      "email": "ali.khan@example.com",
+      "address": "Karachi, Pakistan"
+    },
+    "medical_info": {
+      "blood_group": "B+",
+      "allergies": [],
+      "chronic_conditions": []
+    }
+  },
+  {
+    "patient_id": "P002",
+    "personal_info": {
+      "name": "Sara Ahmed",
+      "age": 34,
+      "gender": "Female",
+      "dob": "1992-07-21"
+    },
+    "contact_info": {
+      "phone": "+92-311-9876543",
+      "email": "sara.ahmed@example.com",
+      "address": "Lahore, Pakistan"
+    },
+    "medical_info": {
+      "blood_group": "O+",
+      "allergies": ["Penicillin"],
+      "chronic_conditions": ["Diabetes"]
+    }
+  },
+  {
+    "patient_id": "P003",
+    "personal_info": {
+      "name": "Usman Ali",
+      "age": 40,
+      "gender": "Male",
+      "dob": "1986-01-10"
+    },
+    "contact_info": {
+      "phone": "+92-333-4567890",
+      "email": "usman.ali@example.com",
+      "address": "Islamabad, Pakistan"
+    },
+    "medical_info": {
+      "blood_group": "A-",
+      "allergies": ["Dust"],
+      "chronic_conditions": ["Hypertension"]
+    }
+  },
+  {
+    "patient_id": "P004",
+    "personal_info": {
+      "name": "Ayesha Malik",
+      "age": 27,
+      "gender": "Female",
+      "dob": "1999-06-15"
+    },
+    "contact_info": {
+      "phone": "+92-312-5551234",
+      "email": "ayesha.malik@example.com",
+      "address": "Faisalabad, Pakistan"
+    },
+    "medical_info": {
+      "blood_group": "A+",
+      "allergies": [],
+      "chronic_conditions": []
+    }
+  },
+  {
+    "patient_id": "P005",
+    "personal_info": {
+      "name": "Hassan Raza",
+      "age": 50,
+      "gender": "Male",
+      "dob": "1976-11-05"
+    },
+    "contact_info": {
+      "phone": "+92-345-8889999",
+      "email": "hassan.raza@example.com",
+      "address": "Multan, Pakistan"
+    },
+    "medical_info": {
+      "blood_group": "AB+",
+      "allergies": ["Peanuts"],
+      "chronic_conditions": ["Asthma"]
+    }
+  }
+]
