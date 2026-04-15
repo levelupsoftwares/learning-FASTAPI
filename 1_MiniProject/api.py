@@ -1,5 +1,5 @@
 import json
-from fastapi import FastAPI
+from fastapi import FastAPI ,Path
 
 app = FastAPI()
 
@@ -23,7 +23,7 @@ def view():
 
 # dyncamicaly access the data
 @app.get('/view/{patient_id}')
-def patient(patient_id:str):
+def patient(patient_id:str = Path(...,description='ID of the patient in the DB',example='POO1')):
     data = load_data()
     for patient in data:
         if patient["patient_id"] == patient_id:
