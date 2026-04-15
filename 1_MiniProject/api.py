@@ -1,5 +1,5 @@
 import json
-from fastapi import FastAPI ,Path
+from fastapi import FastAPI ,Path ,HTTPException
 
 app = FastAPI()
 
@@ -28,5 +28,5 @@ def patient(patient_id:str = Path(...,description='ID of the patient in the DB',
     for patient in data:
         if patient["patient_id"] == patient_id:
             return patient
-    return {'error':'data not avalible'}
+    raise HTTPException(status_code=404, detail="patient data don't exist")
             
