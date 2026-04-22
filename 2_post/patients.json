@@ -147,5 +147,27 @@
         ],
         "bmi": 0.38,
         "verdict": "under weight"
+    },
+    {
+        "name": "ali",
+        "patient_id": "P0071",
+        "age": 41,
+        "weight": 61.5,
+        "height": 6.0,
+        "gender": "male",
+        "dob": "9/11",
+        "phone": 13132,
+        "email": "abcs@example.com",
+        "address": "string city",
+        "blood_group": "AB+",
+        "allergies": [
+            "pollen",
+            "garlic"
+        ],
+        "chronic_conditions": [
+            "string"
+        ],
+        "bmi": 1.71,
+        "verdict": "under weight"
     }
 ]
