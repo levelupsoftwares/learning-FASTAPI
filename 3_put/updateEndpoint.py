@@ -104,4 +104,15 @@ def update(patient_id:str,newPydantic_Patient:Update_Patient):
 
 
     return JSONResponse(status_code=200,content={'message':'updares succesfully'})
-    
+
+
+# Delete Endpont
+
+@app.delete('/delete/{patient_id}')
+def delete_patient(patient_id:str):
+    # load data
+    data = load_data()
+    if patient_id not in data:
+        raise HTTPException(status_code=404,detail="Patient data is't exist")
+    del data[patient_id]
+    return JSONResponse(status_code=200,content={'message':'patient deleted successfuly'})
