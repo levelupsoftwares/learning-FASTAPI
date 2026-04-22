@@ -1,0 +1,12 @@
+{
+    "P001": 
+            {"name": "string", "age": 1, "weight": 2.0, "height": 2.0, "gender": "male", "city": "string", "bmi": 0.5, "verdict": "under weight"},
+    "P002":
+            {"name": "Ali", "city": "PND", "age": 35, "gender": "male", "height": 1.75, "weight": 85, "bmi": 27.76, "verdict": "Overweight"},
+    "P003": 
+            {"name": "fatima", "city": "KSH", "age": 22, "gender": "female", "height": 1.6, "weight": 45, "bmi": 17.58, "verdict": "Underweight"},
+    "P004": 
+            {"name": "jerry", "age": 26, "weight": 45.0, "height": 6.2, "gender": "male", "city": "sargodah", "bmi": 1.17, "verdict": "under weight"},
+    "P005": 
+            {"name": "faiza", "city": "ISL", "age": 30, "gender": "female", "height": 1.55, "weight": 75, "bmi": 31.22, "verdict": "Obese"}
+}
